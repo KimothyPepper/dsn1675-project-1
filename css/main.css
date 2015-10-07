@@ -59,13 +59,20 @@ p {
 }
 
 h2 {
-  background-color: lightpink;
+  background-color: #c4c5e9;
   text-align: center;
   padding:1.5em;
   margin-bottom:0;
+  font-size:1.2em;
 }
 
+h3{
+  font-size:1em;
+}
 
+h2:hover {
+  background-color:#dfe0fb;
+}
 
 footer {
   background-color:  #81d4c3;
@@ -83,5 +90,43 @@ footer img {
 
 footer a {
   text-decoration: none;
+
+}
+
+@media only screen and (min-width: 25em){
+
+  h2 {
+    width:48%;
+    display: inline-block;
+  }
+
+
+
+
+}
+
+@media print {
+  h2{
+    display:none;
+  }
+
+  footer{
+    display: none;
+  }
+
+ body{
+    width:2in;
+    height:3.5in;
+    border:1px dashed gray;
+  }
+
+  p {
+    display:none;
+  }
+
+.email {
+  font-size: 1em;
+}
+
 
 }

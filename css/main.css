@@ -45,6 +45,10 @@ header {
   margin:0;
 }
 
+.contact:hover{
+  background-color:#81d4c3;
+}
+
 main img {
   width:100%;
   border-radius: 0%;
@@ -61,7 +65,7 @@ p {
 h2 {
   background-color: #c4c5e9;
   text-align: center;
-  padding:1.5em;
+  padding:2em 1em 2em 1em;
   margin-bottom:0;
   font-size:1.2em;
 }
@@ -87,6 +91,12 @@ footer img {
  padding:0.5em;
 
 }
+nav {
+  display:block;
+  width:80%;
+  margin:0 auto;
+}
+
 
 footer a {
   text-decoration: none;
@@ -95,13 +105,82 @@ footer a {
 
 @media only screen and (min-width: 25em){
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
   h2 {
     width:48%;
     display: inline-block;
   }
+  img {
+    width: 40%;
+  }
+
+  footer img {
+    width:32%;
+  }
+  nav {
+    display:block;
+    width:75%;
+    margin:0 auto;
+  }
+
+}
+
+
+@media only screen and (min-width: 35em){
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h2 {
+    width:48%;
+    display: inline-block;
+  }
+  img {
+    width: 35%;
+  }
+
+  footer img {
+    width:31%;
+    text-align: center;
+  }
+
+  div {
+    width:80%;
+    margin:0 auto;
+  }
+
+  nav {
+    display:block;
+    width:50%;
+    margin:0 auto;
+  }
 
 
 
+
+}
+
+@media only screen and (min-width: 56em){
+
+  img {
+    width: 25%;
+  }
+
+  div {
+    width:60%;
+    margin:0 auto;
+  }
+  nav {
+    display:block;
+    width:30%;
+    margin:0 auto;
+  }
 
 }
 
@@ -112,6 +191,7 @@ footer a {
 
   footer{
     display: none;
+
   }
 
  body{

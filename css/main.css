@@ -116,10 +116,17 @@ footer a {
     line-height: 1.4;
   }
 
-  h2 {
-    width:48%;
-    display: inline-block;
+  figure {
+    float:left;
+    width:calc(50% - 2rem);
+    margin: 1rem;
   }
+
+  div{
+    margin: 0;
+    overflow: hidden;
+  }
+
   img {
     width: 40%;
   }
@@ -141,14 +148,6 @@ footer a {
   html {
     font-size: 120%;
     line-height: 1.5;
-  }
-
-  h2 {
-    width:48%;
-    display: inline-block;
-  }
-  img {
-    width: 35%;
   }
 
   footer img {
@@ -173,6 +172,11 @@ footer a {
 }
 
 @media only screen and (min-width: 56em){
+
+  html {
+    font-size: 130%;
+    line-height: 1.6;
+  }
 
   img {
     width: 25%;
@@ -203,6 +207,10 @@ footer a {
 main  {
   border-top:0px;
   border-bottom:0px;
+}
+
+main img {
+  display: none;
 }
 
  body{
